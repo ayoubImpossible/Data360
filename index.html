@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data360 – Portail unifié des services Data du CSEFRS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- ===== HEADER ===== -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-logo">
+        <svg width="46" height="34" viewBox="0 0 46 34" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 20c6-4 13-4 19 0 6-4 13-4 19 0"/><path d="M4 26c6-4 13-4 19 0 6-4 13-4 19 0"/><path d="M23 20V4"/><path d="M17 9l6-5 6 5"/>
+        </svg>
+        <strong>CSEFRS</strong>
+      </div>
+      <div class="brand-name">
+        <span class="ar">المجلس الأعلى للتربية والتكوين والبحث العلمي</span>
+        Conseil Supérieur de l'Éducation, de la Formation et de<br>la Recherche Scientifique
+      </div>
+    </div>
+
+    <div class="sep"></div>
+
+    <div class="product">
+      <div class="product-logo">Data<span>360</span><svg width="62" height="56" viewBox="0 0 62 56" fill="none"><path d="M4 50c14 8 40 4 52-16 6-10 4-22-2-28" stroke="#d6a24a" stroke-width="3" stroke-linecap="round"/><path d="M50 6c4 1 7 4 8 8" stroke="#7a1e22" stroke-width="3" stroke-linecap="round"/></svg></div>
+      <div class="product-tag">Portail unifié des services Data du CSEFRS</div>
+    </div>
+
+    <div class="top-actions">
+      <button class="icon-btn" aria-label="Notifications">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+        <span class="dot"></span>
+      </button>
+      <button class="icon-btn" aria-label="Aide">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+      </button>
+      <div class="account">
+        <div class="avatar">HS</div>
+        <span>Mon compte</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <!-- ===== SIDEBAR ===== -->
+    <aside class="sidebar">
+      <img class="side-rosace" src="img/rosace.svg" alt="">
+      <svg class="side-swoosh" viewBox="0 0 266 270" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="sg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#b07a2a"/><stop offset=".5" stop-color="#f3d28c"/><stop offset=".8" stop-color="#e5b965"/><stop offset="1" stop-color="#d4a045"/></linearGradient>
+          <linearGradient id="sb" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#92282c"/><stop offset=".6" stop-color="#832125"/><stop offset="1" stop-color="#721c20"/></linearGradient>
+        </defs>
+        <path d="M0 211 C85 198 150 112 266 76 V270 H0 Z" fill="url(#sb)"/>
+        <path d="M0 212 C85 199 150 113 266 77" fill="none" stroke="rgba(60,0,15,.25)" stroke-width="3"/>
+        <path d="M0 207 C80 193 140 101 266 62 L266 76 C150 112 85 198 0 211 Z" fill="url(#sg)"/>
+      </svg>
+      <ul class="nav">
+        <li><a href="#" class="active">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2h-4v-7H9v7H5a2 2 0 0 1-2-2z"/></svg>
+          Accueil</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg>
+          Catalogue de données</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          Qualité des données</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 2h6v4H9z"/><path d="M9 12h6M9 16h4"/></svg>
+          Demandes de données</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10M9 21V10M15 21V10M19 21V10M2 10l10-7 10 7z"/></svg>
+          Portail Data national</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10M9 21V10M15 21V10M19 21V10M2 10l10-7 10 7z"/></svg>
+          Portail Data régional</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 21h18M6 17v-5M10 17V8M14 17v-7M18 17V5"/></svg>
+          Exploration<br>par établissement</a></li>
+      </ul>
+
+      <div class="nav-sep"></div>
+
+      <ul class="nav">
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 21h18M6 17v-5M10 17V8M14 17v-7M18 17V5"/></svg>
+          Tableaux de bord</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>
+          Mes favoris</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Historique</a></li>
+        <li><a href="#">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2zM22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg>
+          Centre d'aide</a></li>
+      </ul>
+    </aside>
+
+    <!-- ===== MAIN ===== -->
+    <main class="main">
+
+      <!-- Hero -->
+      <section class="hero">
+        <svg class="hero-shape" viewBox="0 0 1407 236" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="hb" x1="0" x2="1"><stop offset="0" stop-color="#7a1e22"/><stop offset=".35" stop-color="#8c2529"/><stop offset=".75" stop-color="#7a1e22"/><stop offset="1" stop-color="#62161a"/></linearGradient>
+            <linearGradient id="hg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6d996"/><stop offset=".6" stop-color="#e2b25c"/><stop offset="1" stop-color="#c38a2e"/></linearGradient>
+            <clipPath id="hc"><path d="M0 0 H786 C762 70 718 160 655 236 H0 Z"/></clipPath>
+          </defs>
+          <path d="M0 0 H800 C778 72 738 160 682 236 H0 Z" fill="url(#hg)"/>
+          <path d="M0 0 H786 C762 70 718 160 655 236 H0 Z" fill="url(#hb)"/>
+          <image href="img/rosace.svg" x="640" y="-55" width="160" height="160" opacity=".5" clip-path="url(#hc)"/>
+          <path d="M1060 236 C1200 228 1320 200 1407 150 V236 Z" fill="#faf8f7"/>
+          <path d="M1060 236 C1200 228 1320 200 1407 150" fill="none" stroke="url(#hg)" stroke-width="5"/>
+        </svg>
+        <div class="hero-img" role="img" aria-label="Siège du CSEFRS"></div>
+        <div class="hero-content">
+          <h1>Bienvenue sur <span>Data360</span></h1>
+          <p>Accédez, en un seul espace, aux données, indicateurs et services Data<br>du CSEFRS pour découvrir, évaluer, demander et explorer les données.</p>
+          <form class="search" onsubmit="return false">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+            <input type="text" placeholder="Rechercher un jeu de données, un indicateur, un établissement, ...">
+            <button class="filter-btn" type="button" aria-label="Filtres">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2" fill="#fff"/><circle cx="15" cy="12" r="2" fill="#fff"/><circle cx="9" cy="18" r="2" fill="#fff"/></svg>
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <div class="content">
+        <div>
+          <!-- Services -->
+          <h2 class="section-title">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            Nos services Data
+          </h2>
+
+          <div class="services">
+            <a href="#" class="service">
+              <div class="ico red"><svg width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 7.5c0 1.7 4 3 9 3s9-1.3 9-3V11c0 1.7-4 3-9 3s-9-1.3-9-3zM3 13.5c0 1.7 4 3 9 3s9-1.3 9-3V19c0 1.7-4 3-9 3s-9-1.3-9-3z"/></svg></div>
+              <div><h3>Data Catalogue</h3><p>Découvrir, rechercher et consulter les jeux de données, métadonnées et référentiels</p></div>
+              <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#" class="service">
+              <div class="ico green"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+              <div><h3>Data Quality</h3><p>Consulter la qualité des données, les contrôles, les anomalies et les écarts</p></div>
+              <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#" class="service">
+              <div class="ico violet"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 2h6v4H9z"/><path d="m8 12 1.5 1.5L12 11M14 12h2M8 17l1.5 1.5L12 16M14 17h2"/></svg></div>
+              <div><h3>Demande de données</h3><p>Formuler, suivre et gérer vos demandes d'accès aux données</p></div>
+              <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#" class="service tall">
+              <div class="ico red"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 21h18"/><rect x="5" y="12" width="3" height="6"/><rect x="10.5" y="8" width="3" height="10"/><rect x="16" y="4" width="3" height="14"/></svg></div>
+              <div><h3>Portail Data national</h3><p>Accéder aux indicateurs officiels et aux statistiques nationales du système d'éducation, de formation et de recherche</p></div>
+              <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#" class="service">
+              <div class="ico red"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div><h3>Portail Data régional</h3><p>Explorer les indicateurs et analyses à l'échelle régionale</p></div>
+              <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#" class="service">
+              <div class="ico orange"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V9l7-5 7 5v12"/><path d="M9 21v-5h6v5M9 11h.01M12 11h.01M15 11h.01"/></svg></div>
+              <div><h3>Exploration dynamique par établissement</h3><p>Analyser et comparer les données des établissements (scolarité, personnel, résultats, infrastructures, ...)</p></div>
+              <svg class="arrow" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+
+          <!-- KPIs -->
+          <section class="kpis">
+            <h2 class="section-title">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2.2" stroke-linecap="round"><path d="M3 21h18"/><rect x="5" y="12" width="3" height="6"/><rect x="10.5" y="8" width="3" height="10"/><rect x="16" y="4" width="3" height="14"/></svg>
+              Chiffres clés de la plateforme
+            </h2>
+            <div class="kpi-grid">
+              <div class="kpi">
+                <div class="ico red"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 7.5c0 1.7 4 3 9 3s9-1.3 9-3V11c0 1.7-4 3-9 3s-9-1.3-9-3zM3 13.5c0 1.7 4 3 9 3s9-1.3 9-3V19c0 1.7-4 3-9 3s-9-1.3-9-3z"/></svg></div>
+                <div class="kpi-row"><div class="value">1 245</div><span class="badge">+6 %</span></div>
+                <div class="label">Jeux de données</div>
+              </div>
+              <div class="kpi">
+                <div class="ico green"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+                <div class="kpi-row"><div class="value">96,8 %</div><span class="badge">+1,2 pt</span></div>
+                <div class="label accent">Qualité des données</div>
+              </div>
+              <div class="kpi">
+                <div class="ico red"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0z"/></svg></div>
+                <div class="value">34</div>
+                <div class="label accent">Demandes en cours</div>
+              </div>
+              <div class="kpi">
+                <div class="ico orange"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 21h18"/><rect x="5" y="12" width="3" height="6"/><rect x="10.5" y="8" width="3" height="10"/><rect x="16" y="4" width="3" height="14"/></svg></div>
+                <div class="value">312</div>
+                <div class="label">Indicateurs publiés</div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Aside -->
+        <div class="aside">
+          <section class="panel">
+            <h2 class="section-title">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="var(--orange)"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
+              Accès rapides
+            </h2>
+            <ul class="quick">
+              <li><a href="#"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg>Consulter un indicateur<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m9 6 6 6-6 6"/></svg></a></li>
+              <li><a href="#"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 2h6v4H9z"/><path d="m9 14 2 2 4-4"/></svg>Déposer une demande<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m9 6 6 6-6 6"/></svg></a></li>
+              <li><a href="#"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10M9 21V10M15 21V10M19 21V10M2 10l10-7 10 7z"/></svg>Suivre mes demandes<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m9 6 6 6-6 6"/></svg></a></li>
+              <li><a href="#"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>Mes favoris<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m9 6 6 6-6 6"/></svg></a></li>
+            </ul>
+          </section>
+
+          <section class="panel">
+            <h2 class="section-title">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v4h4l7 5V5L7 10z"/><path d="M17 9a4 4 0 0 1 0 6M7 14l1 6h3l-1-6"/></svg>
+              Actualités &amp; nouveautés
+            </h2>
+            <ul class="news">
+              <li><span class="bullet" style="background: var(--green)"></span><div><strong>Mise à jour du Catalogue de données</strong><small>20 janv. 2025</small></div></li>
+              <li><span class="bullet" style="background: var(--orange)"></span><div><strong>Nouveaux indicateurs régionaux</strong><small>15 janv. 2025</small></div></li>
+              <li><span class="bullet" style="background: var(--bordeaux)"></span><div><strong>Amélioration du service Data Quality</strong><small>10 janv. 2025</small></div></li>
+            </ul>
+            <a href="#" class="more">Voir toutes les actualités
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</div>
+<script>
+  // Garde exactement les proportions de la maquette (1672 px) sur tout écran
+  function fit() {
+    const z = window.innerWidth >= 1000 ? window.innerWidth / 1672 : 1;
+    document.documentElement.style.zoom = z;
+    document.documentElement.classList.toggle('scaled', z !== 1);
+  }
+  fit(); window.addEventListener('resize', fit);
+</script>
+</body>
+</html>
